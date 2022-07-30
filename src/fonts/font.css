@@ -1,0 +1,39 @@
+@font-face {
+    font-family: xx-font-icons;
+    src: url("xx-font-icons.eot");src: url("xx-font-icons.eot?6693c2f1#iefix") format("embedded-opentype"),
+             url("xx-font-icons.woff2?6693c2f1") format("woff2"),
+             url("xx-font-icons.woff?6693c2f1") format("woff"),
+             url("xx-font-icons.ttf?6693c2f1") format("truetype"),
+             url("xx-font-icons.svg?6693c2f1#xx-font-icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="b-font"], [class*=" b-font"] {
+    font-family: 'xx-font-icons' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+
+.b-font-add-student::before {
+    content: "\554a";
+}
+
+.b-font-git::before {
+    content: "\554b";
+}
+
+.b-font-react::before {
+    content: "\554c";
+}
+
+.b-font-wechat::before {
+    content: "\554d";
+}
+
+.b-font-wx::before {
+    content: "\554e";
+}
+

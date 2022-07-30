@@ -10,3 +10,11 @@ yarn svg
 // or
 npm svg
 ```
+
+## 使用
+
+```tsx
+import { Icon } from "./components/Icon";
+
+<Icon icon='b-font-{图标名称}' size={55}/>
+```
