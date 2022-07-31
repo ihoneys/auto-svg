@@ -18,3 +18,15 @@ import { Icon } from "./components/Icon";
 
 <Icon icon='b-font-{图标名称}' size={55}/>
 ```
+
+## 另一种方式 svgr
+
+引入 svg 即可使用
+
+```tsx
+import { ReactComponent as ReactIcon } from "./svg/react.svg";
+
+<ReactIcon />
+```
+
+第二种比较便捷一下。
